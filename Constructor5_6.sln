@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor5_6", "Constructor5_6\Constructor5_6.csproj", "{75EEEF7A-2592-40A0-9DDA-71B31DF48661}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoServiceTests5_6", "VideoServiceTests5_6\VideoServiceTests5_6.csproj", "{FED57439-3E47-41BE-A7F2-750AD9714B60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75EEEF7A-2592-40A0-9DDA-71B31DF48661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75EEEF7A-2592-40A0-9DDA-71B31DF48661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75EEEF7A-2592-40A0-9DDA-71B31DF48661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75EEEF7A-2592-40A0-9DDA-71B31DF48661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FED57439-3E47-41BE-A7F2-750AD9714B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED57439-3E47-41BE-A7F2-750AD9714B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED57439-3E47-41BE-A7F2-750AD9714B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED57439-3E47-41BE-A7F2-750AD9714B60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45A7B658-1021-4ACA-AE76-584922B3FEE1}
+	EndGlobalSection
+EndGlobal
