@@ -10,11 +10,11 @@ namespace Constructor5_6.Mocking
     public class VideoService
     {
 
-   
-        public IFileReader FileReader { get; set; }
-        public VideoService()
+
+        private IFileReader _fileReader;
+        public VideoService(IFileReader fileReader)
         {
-            FileReader = new FileReader();
+            _fileReader = fileReader();
         }
         public string ReadVideoTitle(IFileReader fileReader)
         {
