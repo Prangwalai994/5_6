@@ -12,11 +12,12 @@ namespace Constructor5_6.Mocking
 
 
         private IFileReader _fileReader;
-        public VideoService(IFileReader fileReader)
+        
+        public VideoService(IFileReader fileReader = null)
         {
-            _fileReader = fileReader();
+            _fileReader = fileReader ?? new FileReader();
         }
-        public string ReadVideoTitle(IFileReader fileReader)
+        public string ReadVideoTitle()
         {
             var str = FileReader.Read("video.txt");
                 var video = JsonConvert.DeserializeObject<Video>(str);
